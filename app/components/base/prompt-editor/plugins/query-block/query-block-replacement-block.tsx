@@ -12,7 +12,7 @@ import type { QueryBlockType } from '../../types'
 import {
   $createQueryBlockNode,
   QueryBlockNode,
-} from '../query-block/node'
+} from './node'
 import { CustomTextNode } from '../custom-text/node'
 
 const REGEX = new RegExp(QUERY_PLACEHOLDER_TEXT)

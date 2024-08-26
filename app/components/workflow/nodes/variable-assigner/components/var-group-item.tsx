@@ -9,7 +9,7 @@ import {
 } from '@remixicon/react'
 import type { VarGroupItem as VarGroupItemType } from '../types'
 import VarReferencePicker from '../../_base/components/variable/var-reference-picker'
-import VarList from '../components/var-list'
+import VarList from './var-list'
 import Field from '@/app/components/workflow/nodes/_base/components/field'
 import { VarType } from '@/app/components/workflow/types'
 import type { NodeOutPutVar, ValueSelector, Var } from '@/app/components/workflow/types'

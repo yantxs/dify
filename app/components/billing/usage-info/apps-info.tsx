@@ -3,7 +3,7 @@ import type { FC } from 'react'
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { ChatBot } from '../../base/icons/src/vender/line/communication'
-import UsageInfo from '../usage-info'
+import UsageInfo from '.'
 import { useProviderContext } from '@/context/provider-context'
 
 type Props = {

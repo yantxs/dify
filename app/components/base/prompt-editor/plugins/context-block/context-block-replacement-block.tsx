@@ -12,7 +12,7 @@ import type { ContextBlockType } from '../../types'
 import {
   $createContextBlockNode,
   ContextBlockNode,
-} from '../context-block/node'
+} from './node'
 import { CustomTextNode } from '../custom-text/node'
 
 const REGEX = new RegExp(CONTEXT_PLACEHOLDER_TEXT)

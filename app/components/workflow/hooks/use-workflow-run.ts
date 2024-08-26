@@ -7,7 +7,7 @@ import produce from 'immer'
 import { v4 as uuidV4 } from 'uuid'
 import { usePathname } from 'next/navigation'
 import { useWorkflowStore } from '../store'
-import { useNodesSyncDraft } from '../hooks'
+import { useNodesSyncDraft } from '.'
 import {
   NodeRunningStatus,
   WorkflowRunningStatus,

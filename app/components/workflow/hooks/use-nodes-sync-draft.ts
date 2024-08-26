@@ -7,7 +7,7 @@ import {
   useWorkflowStore,
 } from '../store'
 import { BlockEnum } from '../types'
-import { useWorkflowUpdate } from '../hooks'
+import { useWorkflowUpdate } from '.'
 import {
   useNodesReadOnly,
 } from './use-workflow'

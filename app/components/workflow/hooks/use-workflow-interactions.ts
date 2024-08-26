@@ -21,7 +21,7 @@ import {
   useNodesReadOnly,
   useSelectionInteractions,
   useWorkflowReadOnly,
-} from '../hooks'
+} from '.'
 import { useEdgesInteractions } from './use-edges-interactions'
 import { useNodesInteractions } from './use-nodes-interactions'
 import { useNodesSyncDraft } from './use-nodes-sync-draft'

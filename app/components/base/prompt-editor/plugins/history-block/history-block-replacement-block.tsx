@@ -11,7 +11,7 @@ import type { HistoryBlockType } from '../../types'
 import {
   $createHistoryBlockNode,
   HistoryBlockNode,
-} from '../history-block/node'
+} from './node'
 import { CustomTextNode } from '../custom-text/node'
 
 const REGEX = new RegExp(HISTORY_PLACEHOLDER_TEXT)
